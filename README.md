@@ -2,9 +2,9 @@
 Kerjakan tugas berikut dengan menggunakan PHPMyadmin!
 
 
-1. Buatlah database dengan nama niomic!
+#### 1. Buatlah database dengan nama niomic!
 
-2. Perhatikan gambar dibawah ini:
+#### 2. Perhatikan gambar dibawah ini:
 ![Tugas 15](https://github.com/troy213/tugas_15_mysql/blob/main/Tugas%2015%20MySQL.png)
 
 a. Buatlah tabel dengan nama demography dengan jumlah 6 kolom sesuai dengan gambar diatas. Teman-teman bebas untuk berkreasi tentang tipe data dan ukuran kolom.
