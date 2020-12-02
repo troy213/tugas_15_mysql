@@ -4,6 +4,11 @@ Kerjakan tugas berikut dengan menggunakan PHPMyadmin!
 
 #### 1. Buatlah database dengan nama niomic!
 
+Jawaban:
+```
+CREATE DATABASE niomic;
+```
+
 #### 2. Perhatikan gambar dibawah ini:
 ![Tugas 15](https://github.com/troy213/tugas_15_mysql/blob/main/Tugas%2015%20MySQL.png)
 
@@ -11,6 +16,8 @@ Kerjakan tugas berikut dengan menggunakan PHPMyadmin!
 ![Tugas 15a](https://github.com/troy213/tugas_15_mysql/blob/main/Tugas%2015.2%20MySQL.jpg)
 
 ##### b. Masukan 34 data sesuai dengan gambar tersebut.
+
+Jawaban:
 ```
 INSERT INTO demography VALUES ('11', 'Aceh', 'Banda Aceh', 4494410, 56500.51, 'Sumatera'),
 ('12', 'Sumatera Utara', 'Medan', 12982204, 72427.81, 'Sumatera'),
@@ -40,10 +47,14 @@ INSERT INTO demography VALUES ('11', 'Aceh', 'Banda Aceh', 4494410, 56500.51, 'S
 ```
 
 ##### c. Kemudian hapus data dengan ketentuan pulau = Nusa Tenggara dan Kalimantan.
+
+Jawaban:
 ![Tugas 15c-1](https://github.com/troy213/tugas_15_mysql/blob/main/Tugas%2015.3%20MySQL.jpg)
 ![Tugas 15c-2](https://github.com/troy213/tugas_15_mysql/blob/main/Tugas%2015.3-2%20MySQL.jpg)
 
 ##### d. Tampilkan kolom nama, ibukota, populasi dan luas dari tabel demography berdasarkan urutan nama secara alphabet.
+
+Jawaban:
 ```
 SELECT * FROM demography ORDER BY nama ASC;
 ```
